@@ -1,7 +1,7 @@
 //var FbMessenger =  require("fb-messenger");
 //var MsgSender = new FbMessenger(token,"REGULAR");
 //
-var port = 3000;
+var port = 8080;
 
 var express = require ("express"); 
 var app = express(); 
