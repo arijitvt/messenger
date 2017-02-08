@@ -1,13 +1,14 @@
 //var FbMessenger =  require("fb-messenger");
 //var MsgSender = new FbMessenger(token,"REGULAR");
 //
+var port = 3000;
 
 var express = require ("express"); 
 var app = express(); 
 var routes = require("./router.js");
 app.use("/",routes);
-app.listen(3000,function (){
-	console.log("Start at port"+3000);
+app.listen(port,function (){
+	console.log("Start at port"+port);
 });
 module.exports = app; 
 
