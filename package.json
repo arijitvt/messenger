@@ -5,7 +5,9 @@
 	"scripts" 	: {
 		"start" : "node ./app.js"
 	},
-
+ 	"engines": {
+	     "node": "0.10.20"
+	},
 	"dependencies" : {
 		"fb-messenger " : "^1.1.0",
 		"express": "~4.12.4"
